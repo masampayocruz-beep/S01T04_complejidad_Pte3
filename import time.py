@@ -21,3 +21,28 @@ for n in valores_tabla:
 
     #Tomando el timepo del tiempo de ejecuicion
     print(f"Timepo de ejecicion para n={n}: {(timestamp_02 - timestamp_01) * 1e6:.2f}  µs")
+
+#Importar la biblioteca de tiempo
+import time 
+ #Crea las variables para 
+ #el problema 
+n = 100
+the_sum = 0
+
+#Tomando el t1
+timestamp_01 = time.time()
+
+#Iniciando ciclo while 
+while(n > 0):
+   the_sum = the_sum + n #100 + 99 + 98 + .. + 1
+   m =  n - 1
+   
+#Tomamos el t2
+timestamp_02 = time.time()
+
+#Imprimimos la solucion 
+print(f"La suma es (the_sum)")
+
+#Calculando tiempo
+elapseed_time = round((timestamp_02 - timestamp_01) * 1e6, 2)
+print(f"Tiempo de ejecucion: {elapseed_time} µs ")

@@ -44,3 +44,4 @@ for repetition in range(1,11):
 #
 for tup in dataset:
     print(tup)
+    
