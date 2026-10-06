@@ -13,4 +13,4 @@ def random_function(students):
     print(new_list) # O(n) 
     return total # O(1) 
 
-print(random_function(student_list_01)) # La llamada cuesta lo que cueste la función, o sea O(n).
+print(random_function(student_list_01)) # La llamada cuesta lo que cueste la función, o sea O(n).   
