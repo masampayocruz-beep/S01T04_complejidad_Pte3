@@ -21,6 +21,5 @@ for n_objetivo in valores_n:
     # Calculando tiempo
     elapsed_time = round((timestamp_02 - timestamp_01) * 1e6, 2)
     
-    # Imprimiendo el formato exacto del profe: (n, tiempo, suma)
+    # Imprimiendo (n, tiempo, suma)
     print(f"({n_objetivo}, {elapsed_time}, {the_sum})")
-    
