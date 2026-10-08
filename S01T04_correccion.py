@@ -7,7 +7,7 @@ def random_function(students):
     new_list = [] # O(1)
 
     for student in students:
-        print("Se le suma de 1 al total") # O(1)
+        print("Se le suma 1 al total") # O(1)
         total += 1 # O(n)
         new_list.append(student) # O(n)
 
